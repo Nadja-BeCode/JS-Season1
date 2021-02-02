@@ -8,6 +8,9 @@
 
         // your code here
 
+     var val = document.getElementById("run").value;
+    document.getElementById("run").value += val;
+
     });
 
 })();
