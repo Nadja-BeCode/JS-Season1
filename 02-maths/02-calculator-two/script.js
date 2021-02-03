@@ -6,6 +6,23 @@
 
     const performOperation = operation => {
         // perform the operation
+
+        let operandOne = parseInt(document.getElementById("op-one").value);
+        let operandTwo = parseInt(document.getElementById("op-two").value);
+
+        switch (operation) {
+            case "addition":
+                alert(operandOne + operandTwo);
+                break;
+            case "substraction":
+                alert(operandOne - operandTwo);
+                break;
+
+
+            default:
+                break;
+        }
+
     };
 
     Array.from(document.querySelectorAll("button.operator")).forEach($btn =>

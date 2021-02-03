@@ -6,9 +6,9 @@
 
     document.getElementById("addition").addEventListener("click", function() {
         // perform an addition
-        let operandOne= (document.getElementById("operandOne").value);
-        let operandTwo= (document.getElementById("operandTwo").value);
-        alert("addition");
+        let operandOne= parseInt(document.getElementById("op-one").value);
+        let operandTwo= parseInt(document.getElementById("op-two").value);
+        alert(operandOne + operandTwo);
 
     });
 

@@ -8,8 +8,11 @@
 
         // your code here
 
-     var val = document.getElementById("run").value;
-    document.getElementById("run").value += val;
+    let arr = [];
+    for (let i = 1; i<= 21; i++) {
+    arr.push(i*i);
+    }
+    alert(arr);
 
     });
 
