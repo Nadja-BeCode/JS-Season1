@@ -7,5 +7,24 @@
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
     // your code here
+    
+    let target = document.getElementById("target");
+    console.log(target);
+
+    let date = new Date().getHours();
+    console.log(date);
+
+    if (date < 18) {
+        target.innerHTML = "Hello";
+    }
+    else {
+        target.innerHTML = "good evening";
+    }
+
+
 
 })();
+
+//recup the target
+//init la date
+//mettre les condit.

@@ -17,6 +17,9 @@
             case "substraction":
                 alert(operandOne - operandTwo);
                 break;
+            case "substraction":
+                alert(operandOne - operandTwo);
+                break;
 
 
             default:
