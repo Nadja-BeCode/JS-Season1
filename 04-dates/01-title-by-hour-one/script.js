@@ -18,7 +18,7 @@
         target.innerHTML = "Hello";
     }
     else {
-        target.innerHTML = "good evening";
+        target.innerHTML = "Good evening";
     }
 
 

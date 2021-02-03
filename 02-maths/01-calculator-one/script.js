@@ -14,19 +14,23 @@
 
     document.getElementById("substraction").addEventListener("click", function() {
         // perform an substraction
-
-            let opOne = (document.getElementById("opOne")).value;
-            let opTwo = (document.getElementById("opTwo")).value;
-            document.getElementById("result").innerHTML = opOne - opTwo;
-            alert("opOne - opTwo");
+        let operandOne= parseInt(document.getElementById("op-one").value);
+        let operandTwo= parseInt(document.getElementById("op-two").value);
+        alert(operandOne - operandTwo);
     
     });
 
     document.getElementById("multiplication").addEventListener("click", function() {
         // perform an multiplication
+        let operandOne= parseInt(document.getElementById("op-one").value);
+        let operandTwo= parseInt(document.getElementById("op-two").value);
+        alert(operandOne * operandTwo);
     });
 
     document.getElementById("division").addEventListener("click", function() {
         // perform an division
+        let operandOne= parseInt(document.getElementById("op-one").value);
+        let operandTwo= parseInt(document.getElementById("op-two").value);
+        alert(operandOne / operandTwo);
     });
 })();

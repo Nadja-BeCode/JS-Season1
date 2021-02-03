@@ -17,11 +17,12 @@
             case "substraction":
                 alert(operandOne - operandTwo);
                 break;
-            case "substraction":
-                alert(operandOne - operandTwo);
+            case "multiplication":
+                alert(operandOne * operandTwo);
                 break;
-
-
+            case "division":
+                alert(operandOne / operandTwo);
+                break;
             default:
                 break;
         }
