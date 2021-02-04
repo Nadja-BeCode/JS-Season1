@@ -8,14 +8,18 @@
 
     // your code here
 
-    let target = document.getElementById("target");
+   /* let target = document.getElementById("target");
     console.log(target);
 
-    let date = new Date(Date.UTC(2012,11,20,3,0,0));
+    let date = new Date();
     console.log(date);
 
-    if (date.toLocaleTimeString < today); 
-    target.innerHTML = date.toLocaleTimeString("en-US")
+    target.innerHTML = date.toLocaleTimeString("en-US")*/
+
+
+let date = new Date()/*.toLocaleDateString("en-US").split("/")*/;
+date.setDate(4);
+document.getElementById("target").innerHTML = date;
 
 
 })();

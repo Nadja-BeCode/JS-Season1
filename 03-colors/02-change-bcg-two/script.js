@@ -5,12 +5,9 @@
 
     // your code here
 
-    document.getElementById("run").onclick = changeColorBody;
+    document.getElementById("run").adddEventListener("click",() => {
     let newColor = document.getElementById("color").value;
-
-    function changeColorBody() {
         document.body.style.backgroundColor = newColor;
-    }
-    
+    });
 
 })();
