@@ -18,10 +18,16 @@
     // your code here
 
     document.getElementById("run").addEventListener("click", () => {
-if ()
-    console.log(fruits.slice(1,10));
-    fruits.insert(0,'banana');
-    fruits.insert(9,'kiwi');
+        //console.log(fruits);
+   
+        let firstElement = fruits.shift();
+        let lastFruits = fruits.pop();
+        let bFruits = fruits.unshift('banana');//add first place
+        let kFruits = fruits.push('kiwi');//add last place
+
+        alert(fruits);
+    })
+
 
 
 })();

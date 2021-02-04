@@ -17,9 +17,9 @@
         "cherry",
     ];
     document.getElementById("run").addEventListener("click", () => {
-    if()
-    alert();
+        console.log(fruits[4]);
 
     // your code here
+    //index = commence par [0] et la position donc le nombre = debute a 1
 
 })();
