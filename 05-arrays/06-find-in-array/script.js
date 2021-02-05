@@ -82,4 +82,17 @@
 
     // your code here
 
+    document.getElementById("run").addEventListener("click", () => {
+
+        people.forEach((element) => {
+
+        if (element.firstname == "Jean" && element.lastname == "Dupont") {
+            console.log(element.email);
+            console.log(people.indexOf(element)); //indexOf = qu'il est le 8 eme element(position) dans l'index du array
+        }
+    });
+    });
+
+    //indexOf
+
 })();

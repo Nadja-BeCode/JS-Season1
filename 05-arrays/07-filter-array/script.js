@@ -82,4 +82,34 @@
 
     // your code here
 
-})();
+    document.getElementById("run").addEventListener("click", () => {
+           /* let majeur = [];
+
+            for(let i = 0; i <= people.length; i++ ) {
+                /*console.log(people[i].age);*/
+                
+           // if  (people[i] >= 18) {
+            //    majeur.push(people[i]);
+             //   }
+            //};
+          //      console.log(majeur);
+
+
+    let majeur = people.filter(people => people.age > 18);
+        console.log(majeur);
+    /************************************************** */  
+
+    document.getElementById("run").addEventListener("click", () => {
+        console.log(people.filter(elem => elem.age >= 18)); //REPONSE VERSION ARNAUD
+})    
+
+
+            /*let bigCities = [];
+            for (let i = 0; i < cities.length; i++) {
+                if (cities[i].population > 3000000) {
+                    bigCities.push(cities[i]);
+                }
+            }
+                    console.log(bigCities);*/
+    });
+    })();

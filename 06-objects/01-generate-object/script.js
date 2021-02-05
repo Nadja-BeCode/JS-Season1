@@ -3,4 +3,18 @@
 
 (() => {
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+
+        let introYou = {
+            lastName : a,
+            firstName : b, 
+            age : c , 
+            city: d , 
+            country: e ,
+        } ;
+
+        
+
+        let entries = Object.entries(introYou);
+        console.log(entries);
 })();

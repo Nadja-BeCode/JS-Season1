@@ -20,8 +20,12 @@
 
     // your code here
     document.getElementById("run").addEventListener("click", () => {
-       // for (i = 0; i < fruits.length; i++) {
-        fruits.forEach(element => console.log(element));
-    })
 
+        let text = " "; //
+       for (i = 0; i < fruits.length; i++) {
+        text += " " + fruits [i] + " ";
+       } 
+        console.log(text);
+    })
+   //text = text + " " + fruits[i] + " "
 })() ;
