@@ -39,9 +39,9 @@
            }*/
 
 
-        let fruits = "appel";
-        if ( )
-        alert(fruits.includes("apple"));
+        let element = [fruits.length];
+           if (fruits == "appel")
+        alert(element.includes("apple"));
         });
 
 })();

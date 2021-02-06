@@ -4,5 +4,6 @@
 (() => {
 
     // your code here
-
+    let selector = document.querySelector("#target").innerHTML = "owned";
+    console.log(selector);
 })();

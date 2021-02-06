@@ -3,5 +3,11 @@
 (() => {
 
     // your code here
+    
+
+        let element = document.getElementById("target");
+        console.log(element);
+
+        element.innerHTML = "owned";
 
 })();
