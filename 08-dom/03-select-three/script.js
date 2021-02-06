@@ -4,5 +4,11 @@
 (() => {
 
     // your code here
+    
+    /*let selector = document.querySelector("section.material").innerHTML = "owned";
+    console.log(selector);  FIRST TRY */ 
+
+    let selector = document.querySelector("p.target").innerHTML = "owned";
+    console.log(selector);
 
 })();
