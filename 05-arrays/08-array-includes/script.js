@@ -19,4 +19,29 @@
 
     // your code here
 
+    document.getElementById("run").addEventListener("click", () => {
+
+        
+        /*let element = fruits.includes("appel"[fruits]);
+        if(element == "apple") {
+            console.log("yes");
+        } else {
+            console.log("no");
+        }
+        //console.log(element);*/
+
+
+        /*if (fruits.indexOf("apple") === -1) {
+            console.log(fruits.includes(1));
+           }
+           else {
+            console.log("no");
+           }*/
+
+
+        let fruits = "appel";
+        if ( )
+        alert(fruits.includes("apple"));
+        });
+
 })();

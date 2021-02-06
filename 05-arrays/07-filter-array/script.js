@@ -96,7 +96,7 @@
 
 
     let majeur = people.filter(people => people.age > 18);
-        console.log(majeur);
+        console.log(majeur); // WHAT I FOUND
     /************************************************** */  
 
     document.getElementById("run").addEventListener("click", () => {
