@@ -5,4 +5,15 @@
 
     // your code here
 
-})();
+    //document.getElementById("counter").addEventListener("click", () => {
+
+       for (i = 0; i <= 10; i++) {
+    
+       } 
+        console.log();
+    })
+   
+
+
+})() ;
+

@@ -5,4 +5,13 @@
 
     // your code here
 
-})();
+    let password = document.getElementById("counter").addEventListener("click", () => {
+
+        if( i == "pass-one") {
+            console.log(password);
+        }
+        else {
+
+        }
+     })
+ })() ;

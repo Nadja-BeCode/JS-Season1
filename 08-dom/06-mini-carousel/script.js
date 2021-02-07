@@ -13,4 +13,17 @@
 
     // your code here
 
+      document.getElementById("next").addEventListener("click", () => {
+
+        let nextImage = [];
+        document.getElementById("next").src = nextImage[i];
+      
+
+        for(let i = 0; i <= gallery.length; i++ ) {
+           
+
+
+
+    });
+
 })();
