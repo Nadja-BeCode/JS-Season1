@@ -9,4 +9,15 @@
         }
     }
     // your code here
+
+    document.getElementById("run").addEventListener("click", () => {
+        
+        const skittyCat = new Cat('Skitty', '9');
+        console.log(skittyCat);
+
+        const pixelCat = new Cat('Pixel', '6');
+        console.log(pixelCat);
+
+
+    });
 })();

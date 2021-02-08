@@ -8,4 +8,36 @@
         }
     }
     // your code here
+    class Cat {
+        constructor(name, gretting) {
+            this.name = name;
+            this.gretting = gretting;
+        }
+    }
+
+    class Dog {
+        constructor(name, gretting) {
+            this.name = name;
+            this.gretting = gretting;
+        }
+    }
 })();
+
+/*class ClassWithStaticMethod {
+
+    static staticProperty = 'someValue';
+    static staticMethod() {
+      return 'static method has been called.';
+    }
+  
+  }
+  
+  console.log(ClassWithStaticMethod.staticProperty);
+  // output: "someValue"
+  console.log(ClassWithStaticMethod.staticMethod());
+  // output: "static method has been called."*/
+
+
+//RandomSource
+//arr. push dans un autre tableau 
+//lettre de l'alphabets

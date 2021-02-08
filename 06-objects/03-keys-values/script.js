@@ -14,10 +14,9 @@
 
     document.getElementById("run").addEventListener("click", () => {
 
-        console.log(person);
-        Object.keys(person);
-        Object.values(person);
-       
+        
+        console.log(Object.keys(person));
+        console.log(Object.values(person));
 
 
     });
