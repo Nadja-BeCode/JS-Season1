@@ -15,12 +15,18 @@
 
       document.getElementById("next").addEventListener("click", () => {
 
-        let nextImage = [];
-        document.getElementById("next").src = nextImage[i];
-      
+       /*let next = document.getElementById("next").src;
+       let nextImage = [];
 
-        for(let i = 0; i <= gallery.length; i++ ) {
+        for(let i = 0; i <= gallery.length; i++ ) {*/
            
+
+    let $gallery = $('#img'), // on cible le bloc du carrousel
+    $img = $('#carrousel img'), // on cible les images contenues dans le carrousel
+    indexImg = $img.length - 1, // on définit l'index du dernier élément
+    i = 0, // on initialise un compteur
+    $currentImg = $img.eq(i); // enfin, on cible l'image courante, qui possède l'index i (0 pour l'instant)
+
 
 
 

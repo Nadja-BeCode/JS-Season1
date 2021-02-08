@@ -11,4 +11,14 @@
         status: "married",
     };
     // your code here
+
+    document.getElementById("run").addEventListener("click", () => {
+
+        console.log(person);
+        Object.keys(person);
+        Object.values(person);
+       
+
+
+    });
 })();
