@@ -11,17 +11,25 @@
     class Cat {
         constructor(name, gretting) {
             this.name = name;
-            this.gretting = gretting;
+            staticgretting(); {
+                return "Hello";
+            }
         }
     }
+   
 
-    class Dog {
+
+
+
+
+    /*class Dog {
         constructor(name, gretting) {
             this.name = name;
             this.gretting = gretting;
         }
     }
-})();
+
+  
 
 /*class ClassWithStaticMethod {
 
@@ -35,9 +43,4 @@
   console.log(ClassWithStaticMethod.staticProperty);
   // output: "someValue"
   console.log(ClassWithStaticMethod.staticMethod());
-  // output: "static method has been called."*/
-
-
-//RandomSource
-//arr. push dans un autre tableau 
-//lettre de l'alphabets
+  /*output: "static method has been called."*/
