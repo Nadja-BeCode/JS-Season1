@@ -5,10 +5,11 @@
 
     // your code here
 
-    //document.getElementById("counter").addEventListener("click", () => {
+    document.getElementById("counter").addEventListener("click", () => {
+        let maxLetters = 0;
 
-       for (i = 0; i <= 10; i++) {
-    
+       if (i = 0; i <= 10; i++) {
+        
        } 
         console.log();
     })

@@ -82,5 +82,10 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
 
-})();
+    let reducer = (age) => age;
+    console.log(people.reduce(reducer));
+
+    });
+});

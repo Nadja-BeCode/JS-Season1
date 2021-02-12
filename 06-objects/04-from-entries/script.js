@@ -5,4 +5,15 @@
     const keys = ["name", "species", "age", "gender", "color"];
     const values = ["Skitty", "cat", 9, "female", "tabby"];
     // your code here
+
+    document.getElementById("run").addEventListener("click", () => {
+        
+        let arr = Object.entries(keys);
+        console.log(arr);
+
+        let v = Object.entries(values);
+        console.log(v);
+
+    })
+
 })();

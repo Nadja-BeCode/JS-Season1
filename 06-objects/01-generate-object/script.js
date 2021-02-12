@@ -5,14 +5,21 @@
     // your code here
     document.getElementById("run").addEventListener("click", () => {
 
-        let introYou = {
-            lastName : "a",
-            firstName : "b", 
-            age : "c" , 
-            city: "d" , 
-            country: "e"
+        let intro = {
+            lastName : "Agostinho",
+            firstName : "Nadja", 
+            age : "7" , 
+            city: "Tubize" , 
+            country: "Belgium",
         }
+        const me = Object.create(person);
 
-        console.log(introYou);
+        me.lastname = "Agostinho";
+        me.firstName = "Nadja"; 
+        me.age = "7"; 
+        me.city= "Tubize" ; 
+        me.country= "Belgium";
+        
+        me.intro();
     });
 })();

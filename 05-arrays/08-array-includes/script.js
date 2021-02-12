@@ -21,27 +21,14 @@
 
     document.getElementById("run").addEventListener("click", () => {
 
-        
-        /*let element = fruits.includes("appel"[fruits]);
-        if(element == "apple") {
-            console.log("yes");
-        } else {
-            console.log("no");
+    
+        if(fruits.indexOf("appel") !== -1){
+            console.log("Value exists!");
+        } else{
+            console.log("Value does not exists!")
         }
-        //console.log(element);*/
+})
+
+})
 
 
-        /*if (fruits.indexOf("apple") === -1) {
-            console.log(fruits.includes(1));
-           }
-           else {
-            console.log("no");
-           }*/
-
-
-        let element = [fruits.length];
-           if (fruits == "appel")
-        alert(element.includes("apple"));
-        });
-
-})();

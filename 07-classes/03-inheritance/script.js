@@ -11,25 +11,20 @@
     class Cat {
         constructor(name, gretting) {
             this.name = name;
-            staticgretting(); {
-                return "Hello";
+            static.staticGretting(); {
+                return "staticGretting";
             }
         }
     }
+
+
    
-
-
-
-
-
-    /*class Dog {
+    //class Dog {
         constructor(name, gretting) {
             this.name = name;
             this.gretting = gretting;
         }
     }
-
-  
 
 /*class ClassWithStaticMethod {
 
