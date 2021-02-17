@@ -16,4 +16,17 @@
     ]);
 
     // your code here
+
+    document.getElementById("run").addEventListener("click", () => {
+
+        fruits.delete('apple');
+        fruits.delete('cherry');
+        console.log(fruits);
+
+        fruits.add('banana');
+        fruits.add('kiwi');
+        console.log(fruits);
+
+    });
+
 })();

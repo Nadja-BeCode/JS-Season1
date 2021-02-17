@@ -21,5 +21,12 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
 
+        let removeDuplicates = fruits.filter((data,index)=>{
+            return fruits.indexOf(data) === index;
+          })
+          console.log(removeDuplicates);
+         
+    });
 })();

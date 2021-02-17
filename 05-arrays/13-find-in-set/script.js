@@ -15,4 +15,15 @@
     ]);
 
     // your code here
+    document.getElementById("run").addEventListener("click", () => {
+
+       let size = people.size;
+       console.log(size);
+
+       let exist = people.has('Alexandre');
+       console.log(exist);
+
+    });
+
 })();
+
