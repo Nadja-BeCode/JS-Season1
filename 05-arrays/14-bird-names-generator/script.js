@@ -31,4 +31,14 @@
     ]);
 
     // your code here
-})();
+
+    document.getElementById("run").addEventListener("click", () => {
+
+        let nameBird = birds[Math.floor(Math.random()*birds.length)];
+        console.log(nameBird.name);
+     });
+
+     //DON'T UNDERSTAND HOW TO DO THE SECOND PART OF THE EXO. 
+ 
+ })();
+
